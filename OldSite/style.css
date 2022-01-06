@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans';}
+
+body {
+    background-image:url(images/Front\ Page\ black.png);
+    background-size: cover;
+}
+body,html{
+    height: 100%;
+}
+b{
+    color: rgb(200, 255, 0);
+}
+/*Drop-Down Navigation*/
+.drop-down {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.drop-down a{
+    list-style:none;
+    text-decoration: none;
+    color: ivory;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.drop-down li{
+    display: inline;
+}
+.med-hover:hover{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px black;
+}
+.drop-down li{
+    display: inline;
+}
+
+
+/*Lille-Logo*/
+.lille-logo{
+    height: 100px;
+margin-top: -25px;
+}
+.logo-front{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/*Headers*/
+ h2{
+    font-size: 150px; 
+    margin-top: -10%;
+    color:azure; 
+    margin-left: 40px;
+    font-weight: 900;
+     -webkit-text-stroke: 3px black;
+    }
+ h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight:normal;
+}
+
+h4{ 
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 75px;
+    color: azure;
+}
+
+
+ /*Flex-Container-Skills-textboks*/
+
+.under-tekst{
+    color: azure;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.flex-container {
+    display: flex;
+    background-color: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+.flex-container div{
+    background-color: none;
+    margin: 5px;
+    padding: 30px;
+    font-size: 15px;
+    color: azure;
+    margin-top: 10px;
+    width: 40%;
+  }
+.flex-container h3{
+    text-align: center;
+}
+.flex-container p{
+    line-height: 25px;
+    font-weight:normal;
+}
+
+/*My Work*/
+
+.text-flex-container{
+    color: azure;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  background-color: none;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 15px;
+  color: azure;
+  margin-top: 10px;
+  width: 40%;
+  align-items: flex-start;
+  align-content: flex-start;
+    }
+  .text-flex-container p{
+      font-weight: lighter;
+  }  
+.flex-billeder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-billeder img{
+    width: 30%;
+    padding: 15px 0 15px 0;
+    object-fit: contain;
+}
+.body-billeder{
+    display: flex;
+
+}
+.billede-stort{
+    width: 60%;
+    margin-top: 30px;
+    background-color:rgba(240, 255, 255, 0.815);
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.billede-stort img{
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.arrows i{
+    padding: 0px 100px 0px 100px;
+    color: black;
+   
+}
+.arrows i:hover{
+    color:rgb(200, 255, 0);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+}
+
+
+/* About me*/
+
+.about-body p{color: azure;
+    margin-top: 50px;
+    width: 45%;
+}
+    
+    .about-body{
+        display: flex;
+        
+    }
+    .about-body img{
+        height: 600px;
+        border-radius: 30px;
+    }
+
+  /*Contact-section*/
+ .form-box{
+     margin-top: 20px;
+     margin-left: 200px;
+ }
+  .Contact-section{
+      color: azure;
+      width: 100px;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 700;
+  }
+.input-box-big{
+    width: 400px;
+    height: 100px;
+}
+  .input-box{
+      width: 400px;
+      height: 20px;
+  }
+ .send{
+     margin-top: 20px;
+     height: 50px;
+     width: 300px;
+     background-color:azure;
+     border-radius: 30px;
+     font-weight: bold;
+     margin-left: 50%;
+ } 
+.send:hover{
+    background-color: rgb(200, 255, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+ .Contact-logos{
+     display: flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     justify-content: center;
+     font-size: 20px;
+     color: azure;
+     float: right;
+     margin-right: 300px;
+     margin-top: 30px;
+ }
+ i{
+     padding-top: 10px;
+     padding-right: 20px;
+     font-size: 40px;
+ } 
+ .Contact-logos a{
+     text-decoration: none;
+     color: azure;
+ }
+ .Contact-logos a:hover{
+     color:rgb(200, 255, 0) ;
+ }
+
+
+
+/*Footer*/
+.footer{
+    margin-left: 10px;
+}
+.small-logos{
+    width: 200px;
+    display: flex;
+    list-style: none;
+    display:flex;
+    list-style-type: none;
+}
+
+
+.small-logos i{
+    color: azure;
+}
+
+.small-icon i:hover{ color: rgb(200, 255, 0);}
+
+.flex-foot {
+    padding: 15px;
+    color: azure;
+    font-size: small;
+    display: flex;
+   align-items: flex-end;
+   height: 20%;
+   text-align:left; 
+   justify-content: space-between;
+  }
+  .flex-foot p{
+      width: 500px;
+  }
